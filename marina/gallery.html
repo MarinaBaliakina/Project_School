@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marina's Webpage</title>
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700&family=Raleway:wght@300;400&family=Sarpanch:wght@600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js></script>
+       
+ <script>
+$(document).ready(function(){
+    
+    $("#img1").click(function(){ 
+        $("#hero").hide(); 
+        $("#hero").attr("src", "images/img1.jpg"); 
+        $("#hero").fadeIn(500); 
+    });   
+
+    $("#img2").click(function(){
+        $("#hero").hide();
+        $("#hero").attr("src", "images/img2.jpg");
+        $("#hero").fadeIn(500); 
+    });    
+    
+    $("#img3").click(function(){
+        $("#hero").hide();
+        $("#hero").attr("src", "images/img3.jpg");
+        $("#hero").fadeIn(500);
+    });   
+
+    $("#img4").click(function(){
+        $("#hero").hide();
+        $("#hero").attr("src", "images/img4.jpg");
+        $("#hero").fadeIn(500);
+    });  
+
+    $("#img5").click(function(){
+        $("#hero").hide();
+        $("#hero").attr("src", "images/img5.jpg");
+        $("#hero").fadeIn(500);
+    });  
+    
+    $("#img6").click(function(){
+        $("#hero").hide();
+        $("#hero").attr("src", "images/img6.jpg");
+        $("#hero").fadeIn(500);
+    });      
+    
+});
+
+</script>   
+      
+   
+
+    
+</head>
+                            <!--MAIN SEGMENT-->
+<body>
+<div class="main">
+    <div class="header">
+         <div class="logo">
+             <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+         </div>
+         <div class="nav">
+              <ul>
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="about.html">About</a>
+                        <ul class="dropdown">
+                            <li><a href="about.html">About Me</a></li>
+                            <li><a href="https://www.instagram.com/marirror/" target="_blank">Instagram</a>
+                            </li>      
+                        </ul>
+                   </li>
+                   <li><a href="gallery.html">Gallery</a></li>
+              </ul>
+         </div>
+    </div>
+
+   
+    <div class="content">     
+          <div class="sidebar">
+               <img id="img1" src="images/img1.jpg" alt="Model reaching towards light">
+               <img id="img2" src="images/img2.jpg" alt="Model in pink environment">
+               <img id="img3" src="images/img3.jpg" alt="Model with closed eyes">
+               <img id="img4" src="images/img4.jpg" alt="Girl in city environment">
+               <img id="img5" src="images/img5.jpg" alt="Girl with tatoo of fish">
+               <img id="img6" src="images/img6.jpg" alt="Girl in lit with green light">
+          </div>
+          <div class="parent">
+                <img id="hero" src="images/img1.jpg" alt="Model reaching towards light">
+          </div>
+    </div>
+</div>                           
+
+<footer>
+
+<a href="https://www.instagram.com/marirror/?hl=ru" class="fa fa-instagram" target="_blank"></a>
+<a href="https://www.facebook.com/profile.php?id=100028265203054" class="fa fa-facebook" target="_blank"> </a>
+<a href="mailto:marina.balyakina@gmail.com" class="fa fa-google"> </a>
+
+</footer>
+          
+</body>
+</html>
